@@ -29,15 +29,19 @@ if __name__ == "__main__":
 
     pipeline = [
         {
+            # group the documents back together based on a common field (_id)
             "$group": {
                 "_id": "$ip",
+                # count the occurrences of each unique IPs in the collection
                 "count": {"$sum": 1}
             }
         },
         {
+            # sorts the grouped documents in descending order
             "$sort": {"count": -1}
         },
         {
+            # returns only the first 10 results
             "$limit": 10
         }
     ]
