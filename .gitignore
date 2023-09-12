@@ -3,3 +3,9 @@ __pycache__/
 *main.py
 *.zip
 dump/
+
+
+node_modules
+*.test.js
+*.spec.js
+*.json
