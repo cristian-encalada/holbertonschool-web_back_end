@@ -8,4 +8,3 @@ dump/
 node_modules
 *.test.js
 *.spec.js
-*.json
