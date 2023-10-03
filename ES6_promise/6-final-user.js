@@ -16,7 +16,8 @@ function handleProfileSignup(firstName, lastName, fileName) {
       // Extract and format the result of the uploadPromise
       const uploadResult = {
         status: results[1].status,
-        value: results[1].reason,
+        // Convert the error to a string (for uniformity)
+        value: results[1].reason.toString(),
       };
       // Return an array containing both results
       return [signUpResult, uploadResult];
