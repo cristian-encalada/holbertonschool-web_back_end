@@ -8,7 +8,7 @@ function cleanSet(set, startString) {
   }
 
   for (const value of set) {
-    if (value.startsWith(startString)) {
+    if (value !== undefined && value.startsWith(startString)) {
       // If the value starts with the startString, append the rest of the string to the array
       cleanedValues.push(value.substring(startString.length));
     }
