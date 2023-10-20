@@ -3,7 +3,7 @@
 ## Table of contents
    1. [Requirements](#requirements)
    2. [Mandatory Tasks](#mandatory-tasks)
-   3. [Advanced Tasks](#advnced-tasks)
+   3. [Advanced Tasks](#advanced-tasks)
    4. [Author](#author)
 
 ## Requirements
