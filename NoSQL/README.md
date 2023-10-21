@@ -1,7 +1,5 @@
 # NoSQL
 
-# Python - Variable Annotations
-
 ## Table of contents
    0. [Resources](#resources)
    1. [Requirements](#requirements)
